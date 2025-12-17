@@ -23,7 +23,6 @@ Projede üç farklı model uygulanmıştır:
 | **Soyad** | KHANOUM |
 | **Öğrenci No** | 2212721317 |
 | **Ders** | BLG407 – Makine Öğrenmesi |
-| **GitHub** | https://github.com/Abood88088/CNN_siniflandirma |
 
 ---
 
@@ -48,9 +47,9 @@ test doğruluklarını özetlemektedir.
 
 | Deney No | Batch Size | Filtre Sayısı | Dropout | Learning Rate | Veri Artırımı | Test Doğruluğu | Not                  |
 | -------- | ---------- | ------------- | ------- | ------------- | ------------- | -------------- | -------------------- |
-| 1        | 32         | 32-64-128     | 0.2     | 0.001         | Hayır         | %68            | Temel deneme         |
-| 2        | 64         | 32-64-128     | 0.3     | 0.001         | Evet          | %74            | Veri artırımı etkili |
-| 3        | 64         | 64-128-256    | 0.4     | 0.0005        | Evet          | %78            | Daha derin yapı      |
+| 1        | 16         | 32-64-128     | 0.3     | 0.001         | Hayır         | %81.25            |    Transfer learning kullanılan başlangıç modeli   |
+| 2        | 16         | 32-64-128     | 0.3     | 0.001         | Hayır          | %93.75            | Temel CNN ile daha iyi öğrenme sağlandı |
+| 3        | 32         | 64-128-256    | 0.25    | 0.001         | Evet          | %95            |    Veri artırımı ve derin mimari ile en iyi sonuç   |
 
 ⚙️ 2. Model1 – Transfer Learning (ResNet50)
 🔍 Model Açıklaması
