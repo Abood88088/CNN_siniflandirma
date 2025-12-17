@@ -41,12 +41,6 @@ tarafımdan **cep telefonu kamerası** ile çekilmiştir.
 | Bölme Oranı | %70 Train – %15 Validation – %15 Test |
 | Veri Türü | RGB |
 
-### 📁 Klasör Yapısı
-```text
-dataset/
-├── lamba/
-└── saat/
-```
 ### 📊 Deney Karşılaştırma Tablosu
 
 Aşağıdaki tablo, farklı hiperparametre ve yöntemlerle elde edilen
@@ -192,6 +186,7 @@ Bu nedenle proje kapsamında nihai model olarak seçilmiştir.
 | Model3 | **%95.00**    | En iyi genelleme ve nihai model         |
 
 📁 6. Proje Dosya Yapısı
+```text
 CNN_siniflandirma/
 ├── dataset/
 │   ├── lamba/
@@ -209,6 +204,6 @@ CNN_siniflandirma/
 ├── Model2.ipynb
 ├── Model3.ipynb
 └── README.md
-
+```
 
 
